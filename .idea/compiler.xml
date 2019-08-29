@@ -10,6 +10,7 @@
         <module name="consul-discovery" />
         <module name="eureka-client" />
         <module name="eureka-consumer" />
+        <module name="eureka-consumer-feign" />
         <module name="eureka-consumer-ribbon" />
         <module name="eureka-server" />
         <module name="spring-cloud" />
@@ -22,6 +23,7 @@
       <module name="consul-discovery" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-consumer" options="-parameters" />
+      <module name="eureka-consumer-feign" options="-parameters" />
       <module name="eureka-consumer-ribbon" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>
