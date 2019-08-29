@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="consul-discovery" />
         <module name="eureka-client" />
+        <module name="eureka-consumer" />
         <module name="eureka-server" />
         <module name="spring-cloud" />
       </profile>
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="consul-discovery" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
+      <module name="eureka-consumer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>
   </component>
